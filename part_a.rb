@@ -13,6 +13,22 @@ class Student
     return @cohort
   end
 
+  def set_name(name)
+    @name = name
+  end
+
+  def set_cohort(cohort_number)
+    @cohort = cohort_number
+  end
+
+def student_talk
+    return "I can talk!"
+end
+
+def favourite_language(language)
+  return "I love #{language}" 
+end
+
 
 
 
